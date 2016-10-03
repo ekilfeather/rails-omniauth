@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/ekilfeather/omniauth-orcid.git
-  revision: 7d0090e6428aed02c6ba2928ddd262179dcb127f
-  specs:
-    omniauth-orcid (0.6)
-      omniauth (~> 1.0)
-      omniauth-oauth2 (~> 1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -177,6 +169,8 @@ GEM
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
+    omniauth-orcid (1.2.1)
+      omniauth-oauth2 (~> 1.3)
     omniauth-twitter (1.2.1)
       json (~> 1.3)
       omniauth-oauth (~> 1.1)
@@ -307,7 +301,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   omniauth-oauth2
-  omniauth-orcid!
+  omniauth-orcid
   omniauth-twitter
   pg
   rails (= 4.2.7.1)

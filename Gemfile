@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 2.0'
 #omni-auth tutorial
 gem 'omniauth-oauth2'
 gem 'omniauth-twitter'
-gem 'omniauth-orcid', :git => 'https://github.com/ekilfeather/omniauth-orcid.git'
+gem 'omniauth-orcid'
 
 group :development, :test do
   gem 'byebug'

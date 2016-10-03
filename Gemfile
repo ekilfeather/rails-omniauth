@@ -6,6 +6,18 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+
+
+
+
+
+
+
+#omni-auth tutorial
+gem 'omniauth-oauth2'
+gem 'omniauth-twitter'
+gem 'omniauth-orcid', :git => 'https://github.com/ekilfeather/omniauth-orcid.git'
+
 group :development, :test do
   gem 'byebug'
 end
@@ -13,14 +25,21 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
 gem 'high_voltage'
 gem 'pg'
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  #use figaro for env keys
+  gem 'figaro'
 end
 group :development, :test do
   gem 'factory_girl_rails'

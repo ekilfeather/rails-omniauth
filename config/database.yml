@@ -16,7 +16,7 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: rails-omniauth_development
+  database: omniauth_development
   pool:     5
   username: rails-omniauth
   password:
